@@ -1,0 +1,31 @@
+a {
+  color: #80a;
+  text-decoration: underline dotted;
+}
+
+a:hover {
+  color: #f80;
+}
+
+#content {
+  font-family: Monospace, courier, monospace;
+  font-size: 150%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#title {
+  background: linear-gradient(90deg, #f80 20%, #80a 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#links {
+  display: flex;
+  justify-content: space-around;
+}
