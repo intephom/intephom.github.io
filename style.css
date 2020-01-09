@@ -23,6 +23,8 @@ a:hover {
   background: linear-gradient(90deg, #f80 20%, #80a 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  display: flex;
+  justify-content: space-around;
 }
 
 #links {
